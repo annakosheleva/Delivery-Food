@@ -39,7 +39,7 @@ const partners = () => {
         });
     }
     
-    fetch('https://delivery-food-61298-default-rtdb.firebaseio.com/db/partners.json')
+    fetch('./db/partners.json')
         .then((response) => response.json())
         .then((data) => {
             renderItems(data);
