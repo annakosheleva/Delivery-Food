@@ -1,0 +1,25 @@
+{
+  "name": "Delivery_Food",
+  "version": "1.0.0",
+  "description": "Delivery Food service",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annakosheleva/Delivery-Food.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annakosheleva/Delivery-Food/issues"
+  },
+  "homepage": "https://github.com/annakosheleva/Delivery-Food#readme",
+  "devDependencies": {
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
